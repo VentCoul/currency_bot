@@ -2,6 +2,9 @@ import re
 import requests
 import json
 
+''' Для получения актуального курса валют использю api Приват Банка '''
+
+
 URL = 'https://api.privatbank.ua/p24api/pubinfo?json&exchange&coursid=5'
 
 
